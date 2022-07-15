@@ -7,13 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Mathdll\Mathdll\Mathdll.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="Mathdll">
-      <HintPath>..\..\Mathdll\Mathdll\bin\Debug\netcoreapp3.1\Mathdll.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\MathLibrary\MathLibrary.csproj" />
   </ItemGroup>
 
 </Project>

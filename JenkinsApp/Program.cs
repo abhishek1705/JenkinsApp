@@ -1,5 +1,6 @@
 ﻿using System;
-using Mathdll;
+using MathLibrary;
+
 
 namespace JenkinsApp
 {
@@ -15,7 +16,7 @@ namespace JenkinsApp
             Console.WriteLine("Enter 2 values");
             a = Convert.ToInt32(Console.ReadLine());
             b = Convert.ToInt32(Console.ReadLine());
-            MyMaths math = new MyMaths();
+            MyMath math = new MyMath();
 
             int additon = math.Add(a, b);
             int multiplication = math.Multiply(a, b);
