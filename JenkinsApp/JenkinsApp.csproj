@@ -5,4 +5,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="Mathdll">
+      <HintPath>..\..\Mathdll\Mathdll\bin\Debug\netcoreapp3.1\Mathdll.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
